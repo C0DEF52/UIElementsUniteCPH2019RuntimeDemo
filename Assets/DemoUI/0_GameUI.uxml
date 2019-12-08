@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="screen" style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+        <Style src="0_GameUI.uss" />
+        <ui:VisualElement name="left" style="justify-content: center;">
+            <ui:VisualElement name="toolbar">
+                <ui:Button name="increase-speed" class="toolbar-button" style="background-image: url('/Assets/DemoUI/Images/upgrade_icon.png');" />
+                <ui:Button name="random-explosion" class="toolbar-button" style="background-image: url('/Assets/DemoUI/Images/shoot_icon.png');" />
+                <ui:Button name="back-to-menu" class="toolbar-button" style="background-image: url('/Assets/DemoUI/Images/quit_icon.png');" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right" />
+    </ui:VisualElement>
+</ui:UXML>

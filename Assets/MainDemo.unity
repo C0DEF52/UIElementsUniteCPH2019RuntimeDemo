@@ -966,6 +966,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2313288, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 2313288, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313288, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
+      propertyPath: m_AutoUVMaxDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2396728, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
       propertyPath: m_LightmapParameters
       value: 
@@ -991,18 +1003,6 @@ PrefabInstance:
       value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2399054, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
-      propertyPath: m_AutoUVMaxDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2313288, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
-      propertyPath: m_LightmapParameters
-      value: 
-      objectReference: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 2313288, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
-      propertyPath: m_AutoUVMaxAngle
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 2313288, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 3}
       propertyPath: m_AutoUVMaxDistance
       value: 3
       objectReference: {fileID: 0}
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8302b9857102e44c8c26813e6008537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uxml: {fileID: 9197481963319205126, guid: 0c86a390bf397b14e8b24eba356f7d2b, type: 3}
+  uxml: {fileID: 9197481963319205126, guid: 111497777846f4b9ca5b41a79ae51c63, type: 3}
   unityStyleSheet: {fileID: 11400000, guid: d610daef742b54fdda82fd41508f7f2e, type: 2}
   stylesheets: []
   targetTexture: {fileID: 0}
